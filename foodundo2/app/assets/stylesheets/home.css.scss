@@ -1,0 +1,36 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap";
+
+.jumbotron {
+  	position: absolute;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    background-image: url(111.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF!important;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    height: 97.5%;
+    width: 100%;
+    overflow:hidden;
+    text-align: center;
+}
+
+.navbar-default{
+	background-color: rgba(100,100,100,0)!important;
+	border: 1px solid rgba(100,100,100,0)!important; 
+	
+}
+
+.navbar-nav  li a{
+	color: #FFF!important;
+
+}
+
+.form-control{
+    color:black!important;
+}
